@@ -4619,7 +4619,7 @@ ol.list-num-count.list-outline-none>li:before {
 
 @media only screen and (max-width:540px) {
 	.wt-small-separator {
-		font-size: 22px;
+		font-size: 35px;
 		line-height: 20px;
 	}
 }
@@ -11496,8 +11496,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 @media only screen and (max-width: 991px) {
 	.wt-bnr-inr {
-		height: 330px;
-		padding-top: 120px;
+		height: 135px;
+		padding-top: 0px;
 	}
 
 	.wt-bnr-inr-entry {
@@ -11510,7 +11510,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	.wt-bnr-inr-entry .banner-title-name h1,
 	.wt-bnr-inr-entry .banner-title-name h2,
 	.wt-bnr-inr-entry .banner-title-name h3 {
-		font-size: 42px;
+		font-size: 30px;
 		line-height: normal;
 	}
 }
