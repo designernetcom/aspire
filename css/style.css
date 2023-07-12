@@ -633,6 +633,10 @@ table td {
 	}
 }
 
+
+
+
+
 p,
 address,
 pre,
@@ -5692,6 +5696,9 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 
+
+
+
 @media only screen and (max-width:991px) {
 	.testimonial-2-outer:before {
 		width: 100%;
@@ -6993,7 +7000,7 @@ input[type=radio]:checked+label:before {
 .site-footer .widget_services ul li {
 	display: table;
 	width: 100%;
-	padding: 10px 5px;
+	padding: 8px 5px;
 }
 
 .site-footer .widget_services ul li a {
@@ -20504,7 +20511,7 @@ ol.commentlist li .star-rating {
 }
 
 .about-section-two-right .ab-two-info p {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 
@@ -24941,7 +24948,7 @@ a:hover {
 }
 
 .sticky-icon a:hover {
-	color: #FFF;
+	color: #FFF !important;
 	transform: translate(55px, 0px);
 }
 
@@ -25095,3 +25102,11 @@ a:hover {
 .benefit-main li{
  margin-bottom: 15px;
 }
+@media (min-width:991px) and (max-width:1200px){
+	.logo-header-inner img {
+		width: 200px;
+	}
+	.header-nav .nav>li>a {
+	   padding: 26px 10px;
+	}
+	}
